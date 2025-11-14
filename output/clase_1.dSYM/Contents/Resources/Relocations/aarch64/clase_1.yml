@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mb/Documents/Dev/UNI/POO/output/clase_1'
+relocations:     []
+...
