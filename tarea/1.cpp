@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+void calculadora(){
     double a, b;
     char opcion;
 
@@ -28,6 +28,9 @@ int main() {
     else {
         cout << "Opcion incorrecta." << endl;
     }
+}
 
+int main() {
+    calculadora();
     return 0;
 }
