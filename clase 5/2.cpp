@@ -7,6 +7,9 @@ class Circulo{
         double radio;
         double pi = 3.14159265358979323846;
     public:
+        Circulo(){
+            radio = 0;
+        }
         Circulo(double radio){
             this->radio = radio;
         }
@@ -19,7 +22,7 @@ class Circulo{
 };
 
 int main(){
-    Circulo circulo(10);
+    Circulo circulo();
     cout << "El area del circulo es: " << circulo.calcularArea() << endl;
     cout << "El perimetro del circulo es: " << circulo.calcularPerimetro() << endl;
     return 0;
