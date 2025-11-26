@@ -3,11 +3,10 @@
 using namespace std;
 
 class Animal{
-    private:
+    public:
         string name;
         int id, age;
         double weight;
-    public:
         Animal(){
             name = "animal";
             id = 0;
